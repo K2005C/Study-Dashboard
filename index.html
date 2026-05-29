@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang= "en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Study Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>My Study Dashboard</h1>
+        <p id="welcome"></p>
+
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Tasks</a>
+        <a href="#">Profile</a>
+    </nav>
+
+    <main>
+        <!-- Profile Card -->
+    <section class="card profile">
+        <h2>Kimberley</h2>
+
+        <p class="about">
+            I am studying Computer Science and learning HTML and web development.
+        </p>
+        <img src="pink-study-desk.jpg" alt="Pink study workspace with computer, coffee and flowers">
+    </section>
+
+    <!-- Weekly Goals -->
+    <section class="card">
+        <h2>Weekly Goals</h2>
+        <ul id="goalList">
+            <li>Attend lectures</li>
+            <li>Finish lab</li>
+            <li>Review notes</li>
+            <li>Practice JavaScript</li>
+        </ul>
+        <button id="showGoals">Show Goals</button>
+    </section>
+
+    <!-- Status Panel -->
+    <section class="card status">
+        <h2>Study Status</h2>
+        <p class="study-status">Status: Active</p>
+
+        <p id="counter">Study sessions today: 0</p>
+        <button id="addBtn">Add Session</button>
+        <button id="resetBtn">Reset</button>
+    </section>
+
+    </main>
+
+ <footer>
+    <p>&copy; Kimberley Coker 2026 | CS230  </p>
+    <p>This page is for study tracking.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
