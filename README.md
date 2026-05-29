@@ -1,8 +1,10 @@
 # Study Dashboard
 
-![Study Dashboard](Screenshot-dashboard.png)
-
 A responsive study dashboard built with HTML, CSS and JavaScript to help students track study goals and monitor progress.
+
+## Live Demo
+
+[View Live Demo](https://k2005c.github.io/Study-Dashboard/)
 
 ## Features
 
@@ -21,10 +23,6 @@ A responsive study dashboard built with HTML, CSS and JavaScript to help student
 - CSS Flexbox
 - Responsive Design
 - DOM Manipulation
-
-## Live Demo
-
-[View Live Demo](https://k2005c.github.io/Study-Dashboard/)
 
 ## Author
 
