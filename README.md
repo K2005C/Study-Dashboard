@@ -25,6 +25,7 @@ A responsive study dashboard built with HTML, CSS and JavaScript to help student
 ## Live Demo
 
 [View Live Demo](https://k2005c.github.io/Study-Dashboard/)
+
 ## Author
 
 Kimberley Coker
